@@ -2763,9 +2763,9 @@ input, select, textarea {
 			}
 
 				.box .image.featured {
-					left: 15px;
-					top: 15px;
-					margin: -40px 0 40px -30px;
+					left: 0px;
+					top: 0px;
+					margin: 0px 0 0px 0px;
 				}
 
 				.box.post header {
