@@ -97,28 +97,31 @@
 										<div class="row">
 											<div class="col-4 col-6-medium col-12-small">
 												<section class="box">
-													<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+													<!--<a href="#" class="image featured"><img src="im!ages/pic02.jpg" alt="" /></a> -->
 													<header>
 														<h3>News</h3>
 													</header>
-													<p>Here you can see what our latest announcements are, and what we're working on.</p>
+														<a class="embedly-card" data-card-controls="0" href="https://medium.com/@gghq">GGHQ - Small</a>
+ 
+													<p></p>
 													<footer>
 														<ul class="actions">
-															<li><a href="#" class="button alt">Learn more</a></li>
+															<li><a href="https://medium.com/@gghq" class="button alt" alt="GGHQ Medium">Go To Medium</a></li>
 														</ul>
 													</footer>
 												</section>
 											</div>
 											<div class="col-4 col-6-medium col-12-small">
 												<section class="box">
-													<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+													<!--<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a> -->
 													<header>
 														<h3>Events</h3>
 													</header>
 													<p>Check what events are coming up next in the calendar, and see what events we've hosted in the past!</p>
 													<footer>
 														<ul class="actions">
-															<li><a href="#" class="button alt">Learn more</a></li>
+															<li><a href="http://beta.gghq.io/index.html#Recent Events" class="button alt">Event Info</a></li>
+																<!-- THIS WILL NEED TO HAVE THE URL UPDATED PRIOR TO BEING PUSHED TO DIFFERENT ENVIRONMENTS -->
 														</ul>
 													</footer>
 												</section>
@@ -240,7 +243,8 @@
 							<div class="col-8 col-12-medium">
 								<section>
 									<header>
-									  <h2>Recent Events</h2>
+										
+									  <h2><a id="Recent Events">Recent Events</a></h2>
 									</header>
 									<ul class="dates">
 										<li>
@@ -374,6 +378,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 	</body>
 </html>
