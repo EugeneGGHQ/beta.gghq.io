@@ -1570,7 +1570,7 @@ input, select, textarea {
 
 	.box {
 		background: #ffffff;
-		border-bottom: solid 1px #ccc;
+		border-bottom: solid 0px #ccc;
 		padding: 2.75em 1.75em 2.75em 1.75em;
 		height: 660px;
 	}
